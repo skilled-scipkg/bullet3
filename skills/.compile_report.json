@@ -1,0 +1,315 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "bullet3",
+  "evidence": {
+    "core_skills": [
+      "bullet3-examples-and-tutorials",
+      "bullet3-build-and-install",
+      "bullet3-simulation-workflows",
+      "bullet3-test",
+      "bullet3-inputs-and-modeling",
+      "bullet3-api-and-scripting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/bullet3-examples-and-tutorials.md",
+      "skills/.evidence/bullet3-build-and-install.md",
+      "skills/.evidence/bullet3-simulation-workflows.md",
+      "skills/.evidence/bullet3-test.md",
+      "skills/.evidence/bullet3-inputs-and-modeling.md",
+      "skills/.evidence/bullet3-api-and-scripting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/bullet3-api-and-scripting/SKILL.md",
+        "skills/bullet3-api-and-scripting/references/doc_map.md",
+        "skills/bullet3-api-and-scripting/references/source_map.md",
+        "skills/bullet3-build-and-install/SKILL.md",
+        "skills/bullet3-build-and-install/references/doc_map.md",
+        "skills/bullet3-build-and-install/references/source_map.md",
+        "skills/bullet3-examples-and-tutorials/SKILL.md",
+        "skills/bullet3-examples-and-tutorials/references/doc_map.md",
+        "skills/bullet3-examples-and-tutorials/references/source_map.md",
+        "skills/bullet3-inputs-and-modeling/SKILL.md",
+        "skills/bullet3-inputs-and-modeling/references/doc_map.md",
+        "skills/bullet3-inputs-and-modeling/references/source_map.md",
+        "skills/bullet3-simulation-workflows/SKILL.md",
+        "skills/bullet3-simulation-workflows/references/doc_map.md",
+        "skills/bullet3-simulation-workflows/references/source_map.md",
+        "skills/bullet3-test/SKILL.md",
+        "skills/bullet3-test/references/doc_map.md",
+        "skills/bullet3-test/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/bullet3-api-and-scripting/SKILL.md",
+        "skills/bullet3-api-and-scripting/references/doc_map.md",
+        "skills/bullet3-api-and-scripting/references/source_map.md",
+        "skills/bullet3-build-and-install/SKILL.md",
+        "skills/bullet3-build-and-install/references/doc_map.md",
+        "skills/bullet3-build-and-install/references/source_map.md",
+        "skills/bullet3-examples-and-tutorials/SKILL.md",
+        "skills/bullet3-examples-and-tutorials/references/doc_map.md",
+        "skills/bullet3-examples-and-tutorials/references/source_map.md",
+        "skills/bullet3-inputs-and-modeling/SKILL.md",
+        "skills/bullet3-inputs-and-modeling/references/doc_map.md",
+        "skills/bullet3-inputs-and-modeling/references/source_map.md",
+        "skills/bullet3-simulation-workflows/SKILL.md",
+        "skills/bullet3-simulation-workflows/references/doc_map.md",
+        "skills/bullet3-simulation-workflows/references/source_map.md",
+        "skills/bullet3-test/SKILL.md",
+        "skills/bullet3-test/references/doc_map.md",
+        "skills/bullet3-test/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/bullet3-api-and-scripting/references/source_map.md",
+        "skills/bullet3-build-and-install/references/source_map.md",
+        "skills/bullet3-examples-and-tutorials/SKILL.md",
+        "skills/bullet3-examples-and-tutorials/references/source_map.md",
+        "skills/bullet3-index/SKILL.md",
+        "skills/bullet3-inputs-and-modeling/references/source_map.md",
+        "skills/bullet3-simulation-workflows/SKILL.md",
+        "skills/bullet3-simulation-workflows/references/source_map.md",
+        "skills/bullet3-test/SKILL.md",
+        "skills/bullet3-test/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/bullet3-api-and-scripting/references/source_map.md",
+        "skills/bullet3-build-and-install/references/source_map.md",
+        "skills/bullet3-examples-and-tutorials/SKILL.md",
+        "skills/bullet3-examples-and-tutorials/references/source_map.md",
+        "skills/bullet3-index/SKILL.md",
+        "skills/bullet3-inputs-and-modeling/references/source_map.md",
+        "skills/bullet3-simulation-workflows/SKILL.md",
+        "skills/bullet3-simulation-workflows/references/source_map.md",
+        "skills/bullet3-test/SKILL.md",
+        "skills/bullet3-test/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs",
+      "examples/pybullet/gym/pybullet_envs/minitaur/envs",
+      "examples/pybullet/gym/pybullet_envs/deep_mimic/mocap"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Top-level README.md is informative but not captured because this profile stores directories only.",
+      "docs/ is mostly PDF/LaTeX/HTML; Markdown docs are sparse and mostly under pybullet_envs subtrees.",
+      "Generator source scanning was patched to allow explicit roots under example-named parents like examples/pybullet."
+    ],
+    "package_name": "bullet3",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "examples/pybullet",
+      "Extras"
+    ],
+    "test_dirs": [
+      "test",
+      "examples/pybullet/unittests",
+      "Extras/VHACD/test"
+    ],
+    "tutorial_dirs": [
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3",
+  "run_id": "compile_20260304T194330054770Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "bullet3-api-and-scripting",
+      "bullet3-build-and-install",
+      "bullet3-examples-and-tutorials",
+      "bullet3-index",
+      "bullet3-inputs-and-modeling",
+      "bullet3-simulation-workflows",
+      "bullet3-test"
+    ],
+    "core_skill_ids": [
+      "bullet3-examples-and-tutorials",
+      "bullet3-build-and-install",
+      "bullet3-simulation-workflows",
+      "bullet3-test",
+      "bullet3-inputs-and-modeling",
+      "bullet3-api-and-scripting"
+    ],
+    "deferred_gaps": [
+      "Official Bullet manuals are primarily PDF/LaTeX, so some high-signal extraction will require manual synthesis in pass 2.",
+      "Top-level README.md is outside docs roots and should be injected during core-skill enrichment.",
+      "examples includes third-party content that may need pruning from generated doc maps during pass 3 audit."
+    ],
+    "goal": "Generate docs-first Bullet3 skills, then enrich the highest-impact workflows and audit routing quality.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route requests into build/install, API, workflows, HPC, and troubleshooting tracks",
+          "Enforce docs-first lookup before source deep-dives",
+          "Escalation path from docs to source maps when docs are insufficient"
+        ],
+        "reason": "A strong router is required first because coverage spans C++, PyBullet, examples, and tests.",
+        "skill_id": "bullet3-index",
+        "source_hints": [
+          "README.md",
+          "docs",
+          "examples",
+          "test",
+          "src",
+          "examples/pybullet"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "CMake build paths across Linux/macOS/Windows",
+          "PyBullet package build/install workflow",
+          "Dependency and toolchain failure triage"
+        ],
+        "reason": "Build and packaging issues are the most common onboarding blocker.",
+        "skill_id": "bullet3-build-and-install",
+        "source_hints": [
+          "CMakeLists.txt",
+          "docs/latex/building.tex",
+          "setup.py",
+          "build_cmake_pybullet_double.sh",
+          "build_visual_studio_vr_pybullet_double.bat",
+          "build_visual_studio_vr_pybullet_double_cmake.bat",
+          "build_visual_studio_vr_pybullet_double_dynamic.bat"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Python API setup and simulation loop patterns",
+          "Common robotics environment usage paths",
+          "Linking docs to minimal example scripts"
+        ],
+        "reason": "PyBullet API usage is a primary user path and needs concrete runnable entry points.",
+        "skill_id": "bullet3-api-and-scripting",
+        "source_hints": [
+          "docs/pybullet_quickstart_guide",
+          "examples/pybullet/examples",
+          "examples/pybullet/gym/pybullet_envs",
+          "examples/pybullet/unittests",
+          "setup.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Hello-world to full-scene workflow progression",
+          "Core rigid-body and constraint demo patterns",
+          "Input assets/data layout and expected outputs"
+        ],
+        "reason": "Users need a canonical path from sample scenes to reproducible simulation runs.",
+        "skill_id": "bullet3-simulation-workflows",
+        "source_hints": [
+          "examples/HelloWorld",
+          "examples/Tutorial",
+          "examples/RigidBody",
+          "examples/Constraints",
+          "data"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "OpenCL build/runtime prerequisites",
+          "Parallel demo entry points and validation checks",
+          "Performance-focused troubleshooting signals"
+        ],
+        "reason": "GPU/OpenCL and multithreading capabilities are high-impact but easy to misconfigure.",
+        "skill_id": "bullet3-test",
+        "source_hints": [
+          "src/Bullet3OpenCL",
+          "examples/OpenCL",
+          "examples/MultiThreadedDemo",
+          "examples/MultiThreading",
+          "test/OpenCL"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "bullet3-examples-and-tutorials",
+      "bullet3-build-and-install",
+      "bullet3-simulation-workflows",
+      "bullet3-test",
+      "bullet3-inputs-and-modeling",
+      "bullet3-api-and-scripting"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3/skills/bullet3-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3/skills/bullet3-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3/skills/bullet3-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3/skills/bullet3-test/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3/skills/bullet3-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/bullet3-bullet3/skills/bullet3-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "bullet3-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "bullet3-index",
+      "bullet3-build-and-install",
+      "bullet3-api-and-scripting",
+      "bullet3-simulation-workflows",
+      "bullet3-test"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 7,
+    "source_inventory": {},
+    "source_links_total": 58,
+    "topic_skills": 6,
+    "warnings": []
+  }
+}
